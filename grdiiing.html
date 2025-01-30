@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Open Sans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        nav{
+            height: 80px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: whitesmoke;
+            color: black;
+
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            border: 2px solid crimson;
+        }
+        svg{
+            height: 1.4vw;
+            width: 1.4vw;
+            stroke: black;
+        }
+        .navlink2{
+            display: flex;
+            align-items: center;
+            gap: 0.6vw;
+            box-shadow: 0px 0px auto white;
+        }
+        .navlink1{
+            display: flex;
+            gap: 1vw;
+            align-items: center;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        input{
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 0px auto white;
+        }
+        main{
+            margin-top: 30px;
+            height: 90vh;
+            width: 100vw;
+            border: 1px solid green;
+            display: grid;
+            grid-template-columns:repeat(5,1fr);
+            grid-template-rows: repeat(3,1fr);
+            gap: 2vw 1vw;
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navlink1">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Goooo</li>
+        </ul>
+        <ul class="navlink2">
+            <input type="text" placeholder="search here ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>                  
+        </ul>
+    </nav>
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>9</div>
+    </main>
+</body>
+</html>
